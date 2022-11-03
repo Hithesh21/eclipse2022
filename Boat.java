@@ -1,46 +1,26 @@
-package com.xworkz.copy;
+package com.xworkz.access.office;
 
 public class Boat {
-	public String name;
+	private String name;
 	public String color;
 	
 	public String CompanyOwner;
 	public char type;
-	public String owner;
+	public String ownerWife;
+	public boolean isSail;
 	
-	public Boat() {
-		System.out.println("entered default constructor");
+	public Boat(String color, String companyOwner, char type, String owner, boolean isSail) {
+		super();
+		this.color = color;
+		CompanyOwner = companyOwner;
+		this.type = type;
+		this.ownerWife = owner;
+		this.isSail = isSail;
 	}
-    public Boat(String name,String color )
-    {
-    	System.out.println("=========entered parameter constructor with 2 string args=========");
-    	this.name=name;
-    	this.color=color;
-    }
-    public Boat(String CompanyOwner,char type)
-    {
-    	System.out.println("==========entered parameter constructor with 2 string and char args=========");
-    	this.CompanyOwner=CompanyOwner;
-    	this.type=type;
-    }
-    public Boat(String owner,String name, char type)
-    {
-    	System.out.println("===============entered parameter constructor with 3 args============");
-    	this.owner=owner;
-    	this.name=name;
-    	this.type=type;
-    }
-    public Boat(String owner)
-    {
-    	System.out.println("=============entered parameter constructor with 1 args================");
-    	this.owner=owner;
-    }
-    public Boat(String owner,String name,String CompanyOwner, char type) {
-    	System.out.println("=================entered parameter constructor with 4 args===============");
-    	this.owner=owner;
-    	this.CompanyOwner=CompanyOwner;
-    	this.name=name;
-    	this.type=type;
-    	
-    }
+	void setName(String name) {
+		  this.name=name;
+	  }
+	  public String getName() {
+		  return name;
+	  }
 }
