@@ -1,7 +1,7 @@
 package com.xworkz.copy;
 
 public class Bike {
-public Bike()
+private Bike()
 	{
 		System.out.println("bike constructor");
 	}
