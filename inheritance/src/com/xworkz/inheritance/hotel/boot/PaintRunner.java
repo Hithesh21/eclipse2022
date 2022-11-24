@@ -60,6 +60,12 @@ public class PaintRunner {
         System.out.println(lip1);
         boolean same5=lip.equals(lip1);
         System.out.println(same5);
+        
+        System.out.println(System.identityHashCode(lip));
+        System.out.println(System.identityHashCode(lip1));
+        System.out.println(System.identityHashCode(ins));
+
+
 	}
 
 }
