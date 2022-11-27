@@ -1,6 +1,6 @@
 package com.xworkz.inheritance.hotel.boot;
 
-//import com.sun.org.apache.xpath.internal.functions.FuncConcat;
+
 
 public class StringRunner {
 	
