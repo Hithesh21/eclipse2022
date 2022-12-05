@@ -1,10 +1,18 @@
 package com.xworkz.rules.follow.boot;
 
+import com.xworkz.rules.follow.Cricket;
+
 public class CricketRunner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		
+		Cricket cric=new Cricket();
+		cric.play();
+		cric.fees();
+		cric.indoor();
+		cric.outdoor();
+		cric.prize();
 	}
 
 }

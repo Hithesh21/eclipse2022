@@ -1,10 +1,19 @@
 package com.xworkz.rules.follow.boot;
 
+import com.xworkz.rules.follow.Ukart;
+
 public class UkartRunner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+ 
+		
+		Ukart kart=new Ukart();
+		kart.cartValue();
+		kart.cartValue();
+		kart.discount();
+		kart.payMode();
+		kart.reg();
+		
 	}
 
 }
