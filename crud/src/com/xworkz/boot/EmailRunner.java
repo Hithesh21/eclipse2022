@@ -18,7 +18,7 @@ public class EmailRunner {
 		email.create("hithesh6@gmail.com");
 		email.create("hithesh7@gmail.com");
 		email.create("hithesh8@gmail.com");
-		email.create("hithesh9@gmail.com");
+		//email.create("hithesh9@gmail.com");
 		//email.create("hithesh10@gmail.com");
 		System.out.println(email.totalEmails());
 		

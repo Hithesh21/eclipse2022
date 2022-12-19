@@ -1,5 +1,7 @@
 package com.xworkz.ipl.repository;
 
+import java.time.LocalDateTime;
+
 import com.xworkz.ipl.dto.WarDTO;
 
 public interface WarRepository {
@@ -13,5 +15,5 @@ public interface WarRepository {
 	
 	WarDTO findStartedByAndStartedWith(String startedBy, String startedWith);
 
-
+	WarDTO findStartDateGreaterThanOrEqualTO(LocalDateTime date);
 }

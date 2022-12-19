@@ -9,7 +9,7 @@ public class EmailRepoImpl implements EmailRepo {
 	@Override
 	public boolean create(String email) {
 		System.out.println("running create email repo");
-		if(this.index>this.email.length) {
+		if(this.index>=this.email.length) {
 			throw new EmailSizeExceedsException();
 		}
 		this.email[index]=email;
@@ -22,11 +22,13 @@ public class EmailRepoImpl implements EmailRepo {
 	
 	
 	@Override
-	public int totalEmails() {
-		return EmailRepo.super.totalEmails();
+    //	public int totalEmails() {
+	//	return EmailRepo.super.totalEmails();
 		
+	//  }
+	
+	public int totalEmails() {
+		return this.index;
 	}
-	
-	
 
 }

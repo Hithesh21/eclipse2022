@@ -1,5 +1,7 @@
 package com.xworkz.ipl.repository;
 
+import java.time.LocalDateTime;
+
 import com.xworkz.ipl.dto.WarDTO;
 import com.xworkz.ipl.exception.WarSizeExceedException;
 
@@ -59,6 +61,17 @@ public class WarRepositoryImpl implements WarRepository {
 			}
 		}
 		System.out.println("war dto is not present");
+		
+		
+		return null;
+	}
+
+	@Override
+	public WarDTO findStartDateGreaterThanOrEqualTO(LocalDateTime date) {
+		
+		System.out.println("runnig findStartDateGreaterThanOrEqualTO" +date);
+		
+		
 		
 		
 		return null;
