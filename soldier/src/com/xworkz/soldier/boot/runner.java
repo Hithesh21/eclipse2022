@@ -11,7 +11,7 @@ public class runner {
 	public static void main(String[] args) {
 		
 		
-       SoldierDTO dto=new SoldierDTO(1,"RAJU","HIGHER","zeebra","india");
+       SoldierDTO dto=new SoldierDTO(1,"Rajesh","HIGHER","zeebra","india");
        SoldierServiceImpl service=new SoldierServiceImpl();
        SoldierRepoImpl repo=new SoldierRepoImpl();
        
