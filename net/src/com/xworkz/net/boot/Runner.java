@@ -7,6 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import com.xworkz.net.bean.Browser;
 import com.xworkz.net.bean.Chorme;
+import com.xworkz.net.bean.PetrolBunk;
 import com.xworkz.net.configuration.NetConfiguration;
 
 public class Runner {
@@ -22,6 +23,9 @@ public class Runner {
 		Browser ref1=spring.getBean("internetExplorer",Browser.class);
 		System.out.println(ref1);
 		ref1.browse();
+		
+		PetrolBunk ref2=spring.getBean(PetrolBunk.class);
+		ref2.purchase();
 
 		
 	}

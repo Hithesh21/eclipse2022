@@ -7,6 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import configuration.ConfigurationSpring;
 import things.HardwareShop;
+import things.NewsPaper;
 import things.Person;
 import things.Software;
 import things.SoftwareEngineer;
@@ -36,6 +37,7 @@ public class BeanRunner {
 		Person  refName5=spring.getBean(Person.class);
 		System.out.println(refName5);
 
+		
 
 	}
 
