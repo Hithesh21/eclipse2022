@@ -33,7 +33,6 @@ public class WebSeriesServlet extends HttpServlet {
 	System.out.println(budget);
 
 		PrintWriter write=resp.getWriter();
-		//String data="Send succesfully";
 		write.print("<html>");
 		write.print("<body>");
 		write.print("<h1>");

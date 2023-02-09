@@ -21,6 +21,8 @@
 				alt="" width="80" height="48" class="d-inline-block align text-top">
 			</a>
 			<a href="FoodItem.jsp">food items</a>
+						<a href="Interview.jsp">Interview</a>
+			
 		</div>
 	</nav>
 	<h1>Running in Bootstrap </h1>
